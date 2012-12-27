@@ -1,0 +1,927 @@
+/*BOILERPLATE*/
+
+.clear {
+	clear: both;
+	}
+
+body {
+
+	font-family: 'Merriweather', "Futura", arial, sans-serif;
+}	
+
+#wrapper {
+
+	position: relative;
+	width: 940px;
+	height: 627px;
+	overflow: hidden;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+}
+
+#internalwrapper {
+
+	position: relative;
+	bottom: 0px;
+}
+
+#tile1, #tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8, #tile9, #tile10, #tile11 {
+
+	position: relative;
+	width: 940px;
+	height: 627px;
+}
+
+#buttons {
+
+	position: absolute;
+	top: 475px;
+	left:0px;
+	z-index: 1;
+	display: none
+}
+
+#buttons img {
+
+	width: 60px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 10px;
+	float: left;
+}
+
+
+
+#downbutton {
+
+	position: absolute;
+	top: 60px;
+	left: 00px;
+}
+
+#upbutton {
+
+	display: none;
+	padding-bottom: 20px;
+	position: absolute;
+	top: -475px;
+}
+
+
+#buttonholder {
+
+	height: 200px;
+}
+
+
+/*TILE 1*/
+
+
+#qmark1 {
+
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	display: none;
+}
+
+#introbox {
+
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 320px;
+	height: 627px;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	text-align: left;
+}
+
+#introbox a {
+
+	color: white;
+}
+
+#introcopy {
+
+	padding: 15px;
+	font-size: 18px;
+}
+
+#introcopy a {
+	text-decoration: none
+}
+
+#explore {
+
+	font-size: 45px;
+	text-align: center;
+	width: 280px;
+	color: #65c5fb;
+	padding: 50px 0px;
+
+}
+
+#ingredcopybox {
+
+	background: rgba(0, 0, 0, 0.8);
+	width: 300px;
+	color: white;
+	top: 270px;
+	left: 440px;
+	width: 490px;
+	height: 340px;
+	overflow: hidden;
+	display: none;
+
+}
+
+
+#description {
+
+	position: absolute;
+	z-index: 3;
+	top: 330px;
+	left: 0px;
+	width: 500px;
+	background: rgba(0, 0, 0, 0.8);
+	transition: 0.8s ease;
+	-webkit-transition: 0.8s ease-out;
+	-moz-transition: 0.8s ease-out;
+	-o-transition: 0.8s ease-out;
+	
+}
+
+#description.animate { 
+
+	top: 220px; 
+}
+
+#descriptioncopy {
+
+	margin: 20px;
+	text-align: center;
+}
+
+#qmark {
+
+	position: absolute;
+	top: -30px;
+	left: 230px;
+}
+
+#innerimage {
+
+	padding: 20px;
+}
+
+#number1 {
+
+	top: 500px;
+	left: 400px;
+	display: none;
+}
+
+#number2 {
+
+	top: 210px;
+	left: 500px;
+	display: none;
+}
+
+#number3 {
+
+	top: 40px;
+	left: 250px;
+	display: none;
+}
+
+#number1, #number2, #number3, #ingredcopybox {
+
+	z-index: 1;
+	position: absolute;
+	
+}
+
+#close2, #close3, #close4, #close5, #close6, #close7, #close8, #close9, #close10, #close11, #close12, #close13, #close14 {
+
+	position: absolute;
+	top: -7px;
+	right: -5px;
+}
+
+#close1 {
+
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#cutting {
+
+	color: white;
+	position: absolute;
+	width: 300px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	top: 80px;
+	left: 20px;	
+	display: none;
+}
+
+#imageshell {
+
+	width: 300px;
+	height: 200px;
+	background: yellow;
+	overflow: hidden;
+}
+
+#cuttingcopy {
+
+	padding-top: 10px;
+	text-align: left
+}
+
+#cuttingsslide {
+
+	position: relative;
+	left: 0px;
+}
+
+#arrows {
+
+	padding-top: 10px;
+	display: block;
+}
+#right {
+
+	float: right;
+}
+
+#left {
+	float: left;
+	display: none;
+}
+
+#chanping {
+	color: white;
+	text-align: left;
+	position: absolute;
+	width: 300px;
+	top: 50px;
+	right: 100px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	display: none;
+}
+
+/*TILE 2*/
+
+
+#redcopy, #exploreshelves {
+	color: #65c5fb;
+}
+
+#italic {
+
+	font-style: italic;
+	display:	inline;
+}
+
+
+#leftshelf {
+
+	position: absolute;
+	z-index: 2;
+	background: rgba(0, 0, 0, 0.6) ;
+	padding: 10px 5px;
+	top: 290px;
+	left: 10px;
+	display: none
+}
+
+#rightshelf {
+
+	position: absolute;
+	z-index: 2;
+	background: rgba(0, 0, 0, 0.6) ;
+	padding: 10px 5px;
+	top: 290px;
+	right: 10px;
+	display: none
+}
+
+#leftshelf img, #rightshelf img {
+
+	width: 30px;
+}
+
+#shelfholder {
+
+	position: absolute;
+	left: -940px;
+}
+
+/*MIDDLE SHELF */
+
+#readmorejars {
+
+	position: absolute;
+	background: black;
+	padding: 10px;
+	top: 64px;
+	left: 1600px;
+	font-size: 20px;
+	z-index: 1;
+}
+
+#readmorejars a {
+
+	text-decoration: none;
+	color: #65c5fb;
+}
+
+#jarcopy {
+
+	width: 720px;
+	height: 470px;
+	position: absolute;
+	top: 130px;
+	left: 1045px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	font-size: 18px;
+}
+
+#jarcopy a {
+
+	color: white;
+	text-decoration: none
+}
+
+#jarcopy1, #jarcopy2 {
+
+	width: 330px;
+	height: 430px;
+	float: left;
+	margin: 20px 0px 20px 20px;
+	text-align: left
+}
+
+#bluecopy {
+
+	color: #65c5fb;
+	font-size: 43px;
+	text-decoration: none;
+	line-height: 1em;	
+	margin-top: 20px;
+	position: absolute;
+	bottom: 15px;
+	left: 370px;
+}
+
+#jarcopy2 {
+
+	margin-left: 20px;
+}
+
+#whatjars {
+
+	position: absolute;
+	z-index: 2;
+	color: white;
+	top: 20px;
+	left: 1100px;
+	font-size: 60px;
+	width: 600px;
+	text-align: center;
+	background: black;
+	padding: 10px;
+
+}
+
+
+
+#qmark4 {
+
+	position: absolute;
+	z-index: 2;
+	top: 490px;
+	left: 1050px;
+	width: 30px;
+	display: none
+
+}
+
+#qmark7 {
+
+	position: absolute;
+	z-index: 2;
+	top: 560px;
+	left: 1370px;
+	width: 30px;
+	display: none
+
+}
+
+#qmark8 {
+
+	position: absolute;
+	z-index: 2;
+	top: 240px;
+	left: 1780px;
+	width: 30px;
+	display: none
+
+}
+
+#info4 {
+
+	position: absolute;
+	z-index: 2;
+	top: 220px;
+	left: 1060px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	display: none;
+
+}
+
+
+#seselopsis  {
+
+	padding: 20px;
+	width: 250px;
+}
+
+#info4copy {
+
+	
+	width: 230px;
+	font-size: 17px;
+	padding: 0px 25px 15px;
+	text-align: left
+}
+
+#info8 {
+
+	position: absolute;
+	z-index: 2;
+	top: 200px;
+	left: 1370px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	display: none;
+
+}
+
+
+#jujube  {
+
+	padding: 20px;
+	width: 330px;
+}
+
+#info8copy {
+
+	
+	width: 350px;
+	font-size: 18px;
+	padding: 0px 25px 15px;
+}
+
+#info7 {
+
+	position: absolute;
+	z-index: 2;
+	top: 430px;
+	left: 1410px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	font-size: 30px;
+	display: none;
+}
+
+#info7copy {
+
+	width: 230px;
+	float: right;
+	padding: 30px 0px 0px 0px;
+	font-size: 17px;
+	text-align: left
+}
+
+#codonopsis {
+
+	width: 150px;
+	padding: 15px;
+	float: left;
+}
+
+
+/*LEFT SHELF */
+
+
+
+#qmark2 {
+
+	position: absolute;
+	z-index: 2;
+	top: 580px;
+	left: 235px;
+	width: 30px;
+
+}
+
+#qmark9 {
+
+	position: absolute;
+	z-index: 2;
+	top: 220px;
+	left: 460px;
+	width: 30px;
+
+}
+
+
+#qmark10 {
+
+	position: absolute;
+	z-index: 2;
+	top: 295px;
+	left: 65px;
+	width: 30px;
+
+}
+
+#info10 {
+
+	position: absolute;
+	z-index: 2;
+	top: 40px;
+	left: 100px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	display: none;
+
+}
+
+
+#aconite  {
+
+	padding: 20px;
+	width: 250px;
+}
+
+#info10copy {
+	
+	width: 230px;
+	font-size: 17px;
+	padding: 0px 25px 15px;
+	text-align: left
+}
+
+
+#qmark3 {
+
+	position: absolute;
+	z-index: 2;
+	bottom: 10px;
+	left: 840px;
+	width: 30px;
+
+}
+
+
+#info1 {
+
+	position: absolute;
+	z-index: 2;
+	top: 370px;
+	left: 520px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	font-size: 18px;
+	display: none;
+
+}
+
+#costus {
+	padding: 20px;
+	float: left;
+	width: 150px;
+}
+
+#radix {
+
+	width: 150px;
+	padding: 20px;
+	float: left;
+}
+
+#info1copy {
+	float: right;
+	width: 180px;
+	font-size: 17px;
+	margin: 25px 10px 0px 0px;
+	text-align: left
+}
+
+#info2 {
+
+	position: absolute;
+	z-index: 2;
+	top: 410px;
+	left: 90px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	font-size: 30px;
+	display: none;
+}
+
+#info2copy {
+
+	width: 200px;
+	float: right;
+	padding-top: 20px;
+	padding-right: 20px;
+	font-size: 17px;
+	text-align: left
+}
+
+#info9 {
+
+	position: absolute;
+	z-index: 2;
+	top: 20px;
+	left: 500px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	font-size: 18px;
+	display: none;
+
+}
+
+#faxia {
+	padding: 20px;
+	float: left;
+	width: 170px;
+}
+
+
+#info9copy {
+	float: right;
+	width: 180px;
+	font-size: 17px;
+	margin: 35px 10px 0px 0px;
+	text-align: left;
+}
+
+
+
+
+/*RIGHT SHELF*/
+
+#qmark5 {
+
+	position: absolute;
+	z-index: 2;
+	top: 380px;
+	left: 2000px;
+	width: 30px;
+
+}
+
+#qmark6 {
+
+	position: absolute;
+	z-index: 2;
+	top: 520px;
+	left: 2385px;
+	width: 30px;
+
+}
+
+#qmark11 {
+
+	position: absolute;
+	z-index: 2;
+	top: 240px;
+	left: 2370px;
+	width: 30px;
+
+}
+
+#qmark12 {
+
+	position: absolute;
+	z-index: 2;
+	top: 15px;
+	left: 2035px;
+	width: 30px;
+
+}
+
+#info5 {
+
+	position: absolute;
+	z-index: 2;
+	top: 290px;
+	left: 2040px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	font-size: 30px;
+	display: none;
+}
+
+
+#mulberry {
+
+	padding: 15px;
+	width: 230px;
+}
+
+#info5copy {
+
+	margin-left: 15px;
+	margin-bottom: 10px;
+	font-size: 17px;
+	width: 250px;
+	text-align: left;
+}
+
+#info6 {
+
+	position: absolute;
+	z-index: 2;
+	top: 280px;
+	left: 2420px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	display: none;
+}
+
+#suibo {
+
+	width: 220px;
+	padding: 20px;
+}
+
+#info6copy {
+
+	padding: 0 10px 20px 10px;
+	font-size: 18px;
+	width: 250px;
+}
+
+#info11 {
+
+	position: absolute;
+	width: 400px;
+	z-index: 2;
+	top: 30px;
+	left: 2405px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	display: none;
+}
+
+#info11copy {
+
+	width: 160px;
+	float: right;
+	padding-top: 20px;
+	padding-right: 20px;
+	font-size: 17px;
+	text-align: left
+}
+
+#gentiana {
+
+	width: 180px;
+	padding: 20px;
+	float: left;
+}
+
+#info12 {
+
+	position: absolute;
+	width: 400px;
+	z-index: 2;
+	top: 50px;
+	left: 1970px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	display: none;
+}
+
+#info12copy {
+
+	width: 160px;
+	float: right;
+	padding-top: 30px;
+	padding-right: 20px;
+	font-size: 17px;
+	text-align: left
+}
+
+#chinaberry {
+
+	width: 180px;
+	padding: 20px;
+	float: left;
+}
+
+
+
+
+
+/*TILE 3*/
+
+
+
+.trailsholder {
+
+	position: absolute;
+	width: 270px;
+	height: 597;
+	top: 0px;
+	right: -30px;
+	height: 627px;
+	background: rgba(0, 0, 0, 0.8);
+	overflow: hidden;
+}
+
+.trailsholder a {
+
+	color:white;
+	text-decoration: none;
+
+}
+
+.trailbox img {
+
+	width: 200px;
+}
+.trailbox {
+	padding: 20px 20px 0px 20px;
+	float: left;
+}
+
+.trailcopyholder {
+
+	width: 200px;
+	padding-top: 10px;
+}
+
+#bottomtrails {
+
+	padding-bottom: 20px;
+
+}
+
+#cityguide {
+
+	position: absolute;
+	top: 60px;
+	right: 300px;
+	font-size: 40px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	color: white;
+}
+
+#panelholder {
+
+	position: absolute;
+	left: -240px;
+	width: 750px;
+}
+
+#trailbuttons {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 230px;
+	padding: 5px;
+}
+
+#trailbuttons img {
+	width: 55px;
+}
+
+#trailleft {
+
+	float: left;
+}
+#trailright {
+
+	float: right;
+}
+
+
+
+
+
