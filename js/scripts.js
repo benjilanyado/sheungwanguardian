@@ -150,7 +150,7 @@ var lightboximages = [
         copy: "There are as many as 13,000 ingredients listed in modern Chinese medicine, the vast majority derived from plants, trees and fungi"
   }, {  
         position: "-600px",
-        copy: "Insects, snake oil and flesh, and seahorses are still prescribed in various Chinese medicine remedies, but more controversial animal ingredients such as bear bile and rhinoceros horns are decreasing in use"
+        copy: "Insects and other animal parts are still prescribed in various Chinese medicine remedies, but more controversial animal ingredients are decreasing in use"
   }, {  
         position: "-900px",
         copy: "Medicine shop workers assemble the remedy according to a Chinese herbal doctor's instructions - with as many as 30 ingredients constituting a single prescription (see below)"

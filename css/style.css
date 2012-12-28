@@ -30,7 +30,7 @@ body {
 #internalwrapper {
 
 	position: relative;
-	bottom: 0px;
+	bottom:0px;
 }
 
 #tile1, #tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8, #tile9, #tile10, #tile11 {
