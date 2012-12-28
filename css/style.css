@@ -286,7 +286,16 @@ body {
 
 /*TILE 2*/
 
+#keepexploring {
 
+	position: absolute;
+	color: white;
+	bottom: 15px;
+	left: 90px;
+	font-size: 25px;
+	display: none
+
+}
 #redcopy, #exploreshelves {
 	color: #65c5fb;
 }

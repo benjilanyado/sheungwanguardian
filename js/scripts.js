@@ -67,7 +67,7 @@ function upclick() {
 
     event.preventDefault();
     $("#introbox").fadeOut(function(){
-      $("#number1, #number2, #number3, #qmark1, #buttons").fadeIn();
+      $("#number1, #number2, #number3, #qmark1, #keepexploring, #buttons").fadeIn();
     }); 
        
 
