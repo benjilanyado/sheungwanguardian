@@ -44,11 +44,12 @@ function upclick() {
 
 
 
-  $("#downbutton").click(function(event) {      	
+  $("#downbutton, #keepexploring").click(function(event) {      	
 
   	event.preventDefault();
 
   	downclick()
+    $("#keepexploring").fadeOut()
 
 	});
 
